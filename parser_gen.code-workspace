@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "path": "./App/"
+    },
+    {
+      "path": "./ParserTest/"
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {}
+}

@@ -78,6 +78,12 @@ namespace CustomParsers
             return "parse";
         }
 
+        protected List<List<Variable>?>[]? TestAlphaBetaSplit(Grammar sampleGrammar)
+        {
+            var result = this.AlphaBetaSplit(sampleGrammar);
+            return result;
+        }
+
     }
 
 }

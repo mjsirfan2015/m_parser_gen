@@ -1,0 +1,11 @@
+﻿variables:
+   - name: E
+     type: null
+   - name: T
+     type: null
+   - name: num
+     type: num
+ 
+
+grammars:
+   - rule: "<S> := <print><S><+><S>|<print><S><-><S>|<print><S><*><S>|<num>"
